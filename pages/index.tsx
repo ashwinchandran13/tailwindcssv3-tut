@@ -3,7 +3,6 @@ import React from 'react';
 import ColoredBox from '../components/ColoredBox';
 import Jit from '../components/Jit';
 import NativeAspect from '../components/NativeAspect';
-import PrintModifier from '../components/PrintModifier';
 import ScrollSnap from '../components/ScrollSnap';
 
 const index = () => {
@@ -42,12 +41,12 @@ const index = () => {
       </div>
       <ScrollSnap />
       <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-indigo-900 to-cyan-800'>
-        <h1 className='self-center text-white text-8xl mx-44 '>tailwindcss V3.0</h1>
-        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>What's new?</h5>
+        <h1 className='self-center text-white text-8xl mx-44 '>Scroll Behaviour</h1>
+        <Link href='/scroll-behaviour'><a className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400 hover:scale-110'>Scroll to right place⬇️</a></Link>
       </div>
       <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-indigo-900 to-cyan-800'>
-        <h1 className='self-center text-white text-8xl mx-44 '>tailwindcss V3.0</h1>
-        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>What's new?</h5>
+        <h1 className='self-center text-white text-8xl mx-44 '>Multi-Column Layout</h1>
+        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>Newspaper for web📰</h5>
       </div>
       <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-indigo-900 to-cyan-800'>
         <h1 className='self-center text-white text-8xl mx-44 '>tailwindcss V3.0</h1>
