@@ -7,6 +7,7 @@ import MultiColumn from '../components/MultiColumn';
 import NativeAspect from '../components/NativeAspect';
 import OpenModifier from '../components/OpenModifier';
 import ScrollSnap from '../components/ScrollSnap';
+import UnderlineStyles from '../components/UnderlineStyles';
 
 const index = () => {
   return (
@@ -63,9 +64,10 @@ const index = () => {
       </div>
       <OpenModifier />
       <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-indigo-900 to-cyan-800'>
-        <h1 className='self-center text-white text-8xl mx-44 '>tailwindcss V3.0</h1>
-        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>What's new?</h5>
+        <h1 className='self-center text-white text-8xl mx-44 '>Fancy Underline Styles</h1>
+        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>Links deserve better🌼</h5>
       </div>
+      <UnderlineStyles />
       <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-indigo-900 to-cyan-800'>
         <h1 className='self-center text-white text-8xl mx-44 '>tailwindcss V3.0</h1>
         <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>What's new?</h5>
