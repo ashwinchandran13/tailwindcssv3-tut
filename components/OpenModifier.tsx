@@ -5,7 +5,7 @@ const OpenModifier = () => {
     <div className='min-h-screen bg-gray-100'>
         <div className="max-w-md px-8 pt-20 mx-auto my-auto ">
             <h1 className='text-6xl'>FAQs</h1>
-            <details className='p-4 mt-24 rounded-lg'>
+            <details className='p-4 mt-24 open:bg-white open:rounded-lg open:shadow-xl'>
                 <summary className='text-base font-semibold leading-6'>How does it work?</summary>
                 <div className="mt-3">
                     <div className="text-base leading-6 text-gray-600">

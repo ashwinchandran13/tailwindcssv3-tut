@@ -78,6 +78,10 @@ const index = () => {
         <h1 className='self-center text-white text-8xl mx-44 '>Play CDN</h1>
         <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>Just-In-Time, in the browser😮</h5>
       </div>
+      <div className='flex justify-start w-screen h-screen bg-gradient-to-br from-sky-400 to-cyan-800'>
+        <h1 className='self-center text-white text-8xl mx-44 '>Thank You</h1>
+        <h5 className='self-center mt-3 text-5xl text-white underline shadow-lg decoration-teal-400'>Join UI Army for more😁</h5>
+      </div>
     </div>
   );
 };

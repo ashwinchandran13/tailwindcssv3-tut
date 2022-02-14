@@ -31,18 +31,18 @@ const AccentColor = () => {
 
                 <div className="flex items-center">
                     <img src='https://avatarfiles.alphacoders.com/211/211184.jpg' alt="photo" className='w-16 h-16 rounded-full' />
-                    <input type="file" className='ml-6 text-sm leading-6 text-slate-500' />
+                    <input type="file" className='ml-6 text-sm leading-6 text-slate-500 file:bg-violet-400 file:border-none file:px-3 file:py-2 file:rounded-full' />
                 </div>
 
                 <div className="ml-4">
                     <h2 className='text-sm font-medium leading-6 text-slate-900'>Two-Factor Authentication</h2>
                     <div className="grid grid-cols-2 mt-2">
                         <label className='flex items-center'>
-                            <input type="radio" name='2fa' value="SMS" className='focus:outline-violet-500' />
+                            <input type="radio" name='2fa' value="SMS" className='focus:outline-violet-500 accent-violet-500' />
                             <span className='ml-3 text-sm leading-6 text-slate-700'>SMS</span>
                         </label>
                         <label className='flex items-center'>
-                            <input type="radio" name='2fa' value="SMS" className='focus:outline-violet-500' />
+                            <input type="radio" name='2fa' value="SMS" className='focus:outline-violet-500 accent-violet-500' />
                             <span className='ml-3 text-sm leading-6 text-slate-700'>Authenticate</span>
                         </label>
                     </div>
@@ -52,7 +52,7 @@ const AccentColor = () => {
                     <h2 className='text-sm font-medium leading-6 text-slate-900'>Email Preferences</h2>
                     <div className="grid mt-2">
                         <label className='flex items-center'>
-                            <input type="checkbox" name='2fa' value="SMS" className='focus:outline-violet-500' />
+                            <input type="checkbox" name='2fa' value="SMS" className='focus:outline-violet-500 accent-violet-500' />
                             <span className='ml-3 text-sm leading-6 text-slate-700'>Receive product updates via email</span>
                         </label>
                     </div>

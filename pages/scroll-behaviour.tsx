@@ -14,7 +14,8 @@ const ScrollBehaviour = () => {
                 </div>
             </nav>
             <div className='py-10 px-44'>
-                <section id='starters' className='pt-10 mt-24'>
+                {/**use scroll pacing like scroll-mt */}
+                <section id='starters' className='pt-10 mt-24 scroll-mt-24'>
                     <h3 className='text-2xl'>Starters</h3>
                     <div className='flex flex-wrap'>
                         {starters.map((item) => (
@@ -23,7 +24,7 @@ const ScrollBehaviour = () => {
                     </div>
                 </section>
 
-                <section id='main-course' className='pt-10 mt-24 border-t-2'>
+                <section id='main-course' className='pt-10 mt-24 border-t-2 scroll-mt-24'>
                     <h3 className='text-2xl'>Main Course</h3>
                     <div className='flex flex-wrap'>
                         {mainCourse.map((item) => (
@@ -32,7 +33,7 @@ const ScrollBehaviour = () => {
                     </div>
                 </section>
 
-                <section id='desert' className='pt-10 mt-24 border-t-2'>
+                <section id='desert' className='pt-10 mt-24 border-t-2 scroll-mt-24'>
                     <h3 className='text-2xl'>Desert</h3>
                     <div className='flex flex-wrap'>
                         {deserts.map((item) => (
@@ -41,7 +42,7 @@ const ScrollBehaviour = () => {
                     </div>
                 </section>
 
-                <section id='beverage' className='pt-10 mt-24 border-t-2'>
+                <section id='beverage' className='pt-10 mt-24 border-t-2 scroll-mt-24'>
                     <h3 className='text-2xl'>Beverage</h3>
                     <div className='flex flex-wrap'>
                         {beverages.map((item) => (

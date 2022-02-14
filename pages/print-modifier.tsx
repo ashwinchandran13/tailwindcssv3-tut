@@ -8,7 +8,7 @@ const PrintModifier = () => {
     // print modifiers
     <div className='w-screen h-screen overflow-x-clip bg-stone-50 text-stone-600'>
       {/* print modifier */}
-      <nav className='grid grid-cols-2 p-10 h-fit place-items-stretch'>
+      <nav className='grid grid-cols-2 p-10 h-fit place-items-stretch print:hidden'>
         <h1 className='text-3xl select-none font-poppins'>CookyBook</h1>
         <div className='flex justify-end space-x-4'>
           <a type='button' className='self-center pr-3 border-r-2'>Create Account</a>
@@ -91,7 +91,7 @@ const PrintModifier = () => {
               Add dry ingredients and stir until just combined. Then add the chocolate chips and beat until they are evenly distributed throughout the dough.
             </p>
           </div>
-          <div className='flex justify-between border-t-2 mt-9 '>
+          <div className='flex justify-between border-t-2 mt-9 print:hidden'>
             <button className='px-4 py-2 font-semibold border-2 rounded-lg mt-9 hover:bg-slate-200 w-fit drop-shadow-lg' onClick={() => {window.print();return false;}}>Print</button>
             <button className='px-4 py-2 font-semibold border-2 rounded-lg mt-9 hover:bg-slate-200 w-fit drop-shadow-lg'>Save this recipe</button>
           </div>
@@ -99,7 +99,7 @@ const PrintModifier = () => {
       </div>
 
       {/*print modifier*/}
-      <footer className='grid content-center w-screen grid-cols-3 p-4 mt-20 border-t-2 h-1/3 justify-items-center'>
+      <footer className='grid content-center w-screen grid-cols-3 p-4 mt-20 border-t-2 print:hidden h-1/3 justify-items-center'>
         <div className='col-span-1'>
           <ul className='space-y-4 text-center'>
             <li className='font-semibold'>Company</li>

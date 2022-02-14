@@ -14,7 +14,7 @@ const MultiColumn = () => {
                 </p>
             </header>
             {/*grid method not so practical*/}
-            <div className="mt-10 space-y-8">
+            <div className="mt-10 space-y-8 columns-xs">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium modi quia adipisci. Vero laboriosam, ipsum voluptatibus molestiae assumenda mollitia tempore tempora quibusdam ea numquam delectus itaque excepturi alias? Dolore, magni.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate numquam atque illum sapiente autem voluptas non exercitationem veritatis. Iusto quas temporibus nisi dolorem autem? Amet, atque similique. Veniam maxime consequatur et laboriosam fuga animi tempora ea perspiciatis unde nam quia, dolore alias itaque ratione, repudiandae quasi nobis doloremque aut quisquam!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ut itaque accusantium consequatur, aliquid unde blanditiis distinctio. Ducimus facere illo voluptatum cum ipsam explicabo vero. Non facere nulla recusandae ipsum.</p>

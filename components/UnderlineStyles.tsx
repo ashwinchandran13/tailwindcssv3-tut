@@ -10,7 +10,7 @@ const UnderlineStyles = () => {
 
             <p className='mt-4 text-2xl text-slate-700'>
                 I'm Derek, a creative director based in South Queensferry. When I wake up, I like to start building interfaces at 
-                <a href="#" className='font-semibold underline decoration-orange-600 text-slate-900'>&nbsp;My Company, Inc</a>. Outside of work, I like to watch
+                <a href="#" className='font-semibold underline decoration-red-200 text-slate-900'>&nbsp;My Company, Inc</a>. Outside of work, I like to watch
                 <a href="#" className='font-semibold underline decoration-blue-300 text-slate-900'>&nbsp;football&nbsp;</a>and
                 <a href="#" className='font-semibold underline decoration-amber-500 text-slate-900'>&nbsp;take photos of payments.</a>
             </p>
